@@ -9,9 +9,9 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-dumb-llm = { path = "dumb-llm-data", editable = true }
-dumb-llm-training = { path = "dumb-llm-training", editable = true }
-dumb-llm-eval = { path = "dumb-llm-eval", editable = true }
+dumb-llm = { workspace = true }
+dumb-llm-training = { workspace = true }
+dumb-llm-eval = { workspace = true }
 
 [tool.uv.workspace]
 members = ["dumb-llm-data", "dumb-llm-training", "dumb-llm-eval"]
