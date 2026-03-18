@@ -1,0 +1,9 @@
+[submodule "dumb-llm-data"]
+	path = dumb-llm-data
+	url = git@github.com:TheDude/dumb-llm-data.git
+[submodule "dumb-llm-training"]
+	path = dumb-llm-training
+	url = git@github.com:TheDude/dumb-llm-training.git
+[submodule "dumb-llm-eval"]
+	path = dumb-llm-eval
+	url = git@github.com:TheDude/dumb-llm-eval.git
